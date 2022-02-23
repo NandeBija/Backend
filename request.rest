@@ -1,0 +1,43 @@
+POST http://localhost:8060/customers 
+Content-Type: application/json
+
+{
+    "name":"Jammy",
+    "email":"3727180@GMAIL",
+    "contact":"237469836297",
+    "password":"9809226645"
+}
+
+
+###
+GET http://localhost:8060/products
+Content-Type: application/json
+
+###
+POST http://localhost:8060/products
+Content-Type: application/json
+
+
+{
+    "name":"Nike sweater",
+    "image":"img url",
+    "price":900,
+    "size": "M",
+    "about":"Just a sweater, nothing special. But very expensive"
+}
+###
+DELETE  http://localhost:8060/products/1
+Content-Type: application/json
+
+###
+PUT http://localhost:8060/products/2
+Content-Type: application/json
+
+
+{
+    "name":"Nike",
+    "image":"img url",
+    "price":900,
+    "size": "L",
+    "about":"Just a sweater, nothing special. But very expensive"
+}
